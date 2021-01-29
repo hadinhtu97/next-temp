@@ -1,7 +1,7 @@
 {
-  "name": "node-react",
+  "name": "node-react-temp",
   "version": "0.0.1",
-  "description": "",
+  "private": true,
   "main": "server.js",
   "scripts": {
     "test": "mocha --timeout 5000",
