@@ -6,4 +6,7 @@ module.exports = (app) => {
 
     let controller = new Controller();
 
+    app.route('/api/hello')
+        .get((req, res) => res.json({ 'Hello ': 'World!' }))
+
 }
