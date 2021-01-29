@@ -1,7 +1,4 @@
 {
-  "name": "node-react-temp",
-  "version": "0.0.1",
-  "private": true,
   "main": "server.js",
   "scripts": {
     "test": "mocha --timeout 5000",
@@ -19,7 +16,5 @@
     "mocha": "^8.2.1",
     "mongoose": "^5.11.13",
     "node-fetch": "^2.6.1"
-  },
-  "author": "Tu Ha Dinh",
-  "license": "ISC"
+  }
 }
