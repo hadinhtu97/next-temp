@@ -1,1 +1,1 @@
-# node-react-temp
+# Next template

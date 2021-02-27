@@ -1,14 +1,17 @@
 {
-    "name": "node-react-temp",
+    "name": "next-temp",
     "version": "0.0.1",
-    "private": true,
+    "description": "my app",
     "scripts": {
-        "install-client": "npm install --prefix client",
-        "install-server": "npm install --prefix server",
-        "start-client": "npm start --prefix client",
-        "start-server": "npm start --prefix server",
-        "build-client": "npm run build --prefix client"
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
     },
     "author": "Tu Ha Dinh",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "next": "^10.0.7",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    }
 }
