@@ -1,8 +1,16 @@
 import styles from '../styles/Home.module.css'
+import Head from 'next/head'
 
 const Home = () => {
     return (
-        <h1 className={styles.home}>Next temp</h1>
+        <>
+            <Head>
+                <title>Next temp</title>
+            </Head>
+            <main className={styles.main}>
+
+            </main>
+        </>
     )
 }
 
